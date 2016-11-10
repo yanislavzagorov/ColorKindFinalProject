@@ -1,0 +1,172 @@
+/*------- CSS Inventory Catalogue -------*/
+
+/*======= Desktop Versin (>XOXO screen res) =======*/
+
+/* General rules */
+/*--------------*/
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 0;
+    color:#555;
+    background-image:url(Images/background.jpeg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+hr {
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+h3 {
+    margin-top: 0;
+}
+/*-------------------*/
+/* End General rules */
+
+
+/* Specific CSS */
+/*-_-_-_-_-_-_-_*/
+
+/* NAV */
+/*-----*/
+#navwrapper {
+    background-color: #EEF1F2;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+nav {
+    text-align: left;
+    font-size: 1.4em;
+    float: left;
+    width: 70%;
+    display: inline-block;
+    
+}
+
+#navlogo {
+    height:100%;
+    max-height: 50px;
+    width:auto;
+    float:left;
+}
+
+#headerpicturewrapper {
+    height:100vh;
+    width:100%;
+    background-color: red;
+}
+
+/*---------*/
+/* End NAV */
+
+/* Content */
+/*---------*/
+#contentwrapper {
+    background-color: aqua;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 50em;
+    border-left: 0.1em solid #151e19;
+    border-right: 0.1em solid #151e19;
+    overflow: hidden;
+}
+
+figure {
+    font-size: 0.7em;
+    text-decoration: underline;
+    -webkit-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
+    -moz-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
+    box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
+}
+
+#colorblindness {
+    width: 100%;
+    height:auto;
+}
+/*-------------*/
+/* End Content */
+
+footer {
+    width: 100%;
+    height: 220px;
+    background: #2b325f;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding:50px;
+}
+
+#socialmedialist{
+    background-color: red;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#socialmedialist ul{
+    text-decoration: none;
+}
+
+#socialmedialist ul li{
+    float:left;
+    border: 2px solid yellow;
+}
+
+/*
+#headerwrapper header, #footWrap footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#headerwrapper{
+    position: fixed;
+    width: 100%;
+    padding-top: 0.5em;
+    box-shadow: 0 0.2em 0.5em #151e19;
+    z-index: 2;
+}
+
+#headerwrapper, #footerwrapper {
+    background: #151e19;
+    color: #ecebe8;
+    margin: 0;
+}
+
+#navbar {
+    text-align: right;
+    font-size: 1.4em;
+    padding-top: 1.5em;
+    float: right;
+    width: 70%;
+    display: inline-block;
+}
+
+#navbar a {
+    margin-left: 1em;
+}
+
+#navbar .activeLink {
+    color: #2ebd59;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+*/
