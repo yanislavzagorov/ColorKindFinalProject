@@ -56,7 +56,22 @@ nav {
     float: left;
     width: 70%;
     display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
     
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+
+nav a:hover{
+    color: black;
+    background-color: red;
+
 }
 
 #navlogo {
@@ -66,11 +81,13 @@ nav {
     float:left;
 }
 
+/*
 #headerpicturewrapper {
     height:100vh;
     width:100%;
     background-color: red;
 }
+*/
 
 /*---------*/
 /* End NAV */
@@ -105,31 +122,83 @@ figure {
 /*-------------*/
 /* End Content */
 
+
+/* Footer */
 footer {
     width: 100%;
-    height: 220px;
+    height: 80px;
     background: #2b325f;
-    text-align: center;
     position: relative;
     overflow: hidden;
-    padding:50px;
+    left: 0px;
+    bottom: 0px;
+    padding: 13px 0px 0px 0px;
+
 }
 
+footer p{
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+
+
+
+}
+
+
 #socialmedialist{
-    background-color: red;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
+    margin-left: 40%;
+    width: 100%;
+    margin-top: -5px;
+
+
+
 }
 
 #socialmedialist ul{
-    text-decoration: none;
-}
+    margin: 0px auto;
+    line-height: 1.4;
+    padding-left: 0;
+    text-align: center;
+
+
+ }
 
 #socialmedialist ul li{
-    float:left;
-    border: 2px solid yellow;
+    display: inline-block;
+    list-style: none;
+    margin-left: 8px;
+
 }
+
+#socialmedialist ul li img{
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+}
+
+/* End of Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 #headerwrapper header, #footWrap footer {
