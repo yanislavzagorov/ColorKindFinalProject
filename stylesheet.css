@@ -33,7 +33,6 @@ h3 {
 /*-------------------*/
 /* End General rules */
 
-
 /* Specific CSS */
 /*-_-_-_-_-_-_-_*/
 
@@ -49,6 +48,7 @@ h3 {
     overflow: hidden;
     vertical-align: middle;
     position:fixed;
+    float:left;
 }
 
 #navlogo {
@@ -79,15 +79,21 @@ h3 {
     background-color: blue ;
 }
 
-
-
-/*
-#headerpicturewrapper {
-    height:100vh;
+.js {
+    height:35vh;
     width:100%;
-    background-color: red;
+    padding-top:4em;
+    float:left;
 }
-*/
+
+.enabled {
+    background-color: limegreen;
+}
+
+.disabled {
+    background-color: red;
+    display:none;
+}
 
 /*---------*/
 /* End NAV */
@@ -96,30 +102,34 @@ h3 {
 /*---------*/
 #contentwrapper {
     background-color: aqua;
-    width: 80%;
+    width: 90%;
     margin-left:auto;
     margin-right:auto;
     padding-left: 2em;
     padding-right: 2em;
-    max-width: 50em;
     border-left: 0.1em solid #151e19;
     border-right: 0.1em solid #151e19;
     overflow: hidden;
-    padding-top: 4em;
 }
 
-figure {
+#figure1{
     font-size: 0.7em;
     text-decoration: underline;
     -webkit-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
     -moz-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
     box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
+    width:50%;
+    max-width:400px;
+    margin-left:0;
+    margin-top:0;
+    float:left;
 }
 
 #colorblindness {
     width: 100%;
     height:auto;
 }
+
 /*-------------*/
 /* End Content */
 
@@ -184,6 +194,16 @@ footer p{
 /* End of Footer */
 
 
+/* JavaScript handling (jQuery) */
+/*------------------------------*/
+.noscript .enabled {
+    display:none;
+}
+.noscript .disabled {
+    display:block;
+}
+/* JavaScript handling END */
+/*-------------------------*/
 
 
 

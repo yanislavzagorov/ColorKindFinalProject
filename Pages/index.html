@@ -12,9 +12,23 @@
         
         <link rel="stylesheet" tyle="text/css" href="../stylesheet.css">
         <link rel="shortcut icon" href="../favicon.ico">
+        
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
     </head>
      
-    <body>
+    <body class="noscript">
+        
+    <script>
+        if (typeof jQuery != 'undefined') {
+
+            $("body").removeClass("noscript");
+
+        }else{
+
+            alert("jQuery library is not found!");
+
+        }
+    </script>
         
     <div id="colorline">
     </div>
@@ -32,32 +46,35 @@
                         <li><a href="about"> About us </a></li>
                     </ul>
                 </div>
-
      <!-- Nav -->
 
     </div>
     <!-- End of header wrapper -->
         
-    <div id="headerpicturewrapper">
-    
+    <div class="js enabled">
+        <h1>Enabled!</h1>
+    </div>
+        
+    <div class="js disabled">
+        <h1>Disabled!</h1>
     </div>
         
     <div id="contentwrapper">
         
-        <h3>ColorKind</h3>
+        <h1>About Color Vision Deficiency</h1>
         <article>
             
-            <h4>
+            <h3>
                 What is color deficiency?
-            </h4>
+            </h3>
 
-            <figure>
-                <img id="colorblindness" src="../Images/colorblindness.jpg" alt="Image displaying ">
-                <figcaption>Retrieved from <a href="https://www.lenspick.com/blog/colour-blindness-symptoms-and-treatments/" target="_blank">www.lenspick.com, November 9 2016</a> </figcaption>
-            </figure>
-
-       
             <p>
+                <figure id="figure1">
+                <img id="colorblindness" src="../Images/colorblindness.jpg" alt="Image comparing standard color vision to colorblind color vision">
+                <figcaption>Retrieved from: <a href="https://www.lenspick.com/blog/colour-blindness-symptoms-and-treatments/" target="_blank">www.lenspick.com, November 9 2016</a> </figcaption>
+                </figure>
+                
+                
                 Color Vision Deficiency comes in many forms and ranges of severity, but is in essence the same biological disorder. The human eye consists of an array of light-sensitive equipment. Your light-bending lens concentrates the light coming into your eyes through the light-sensing retina to your macula, a point where light is concentrated and later translated into an image in your brain. 
                 
                 The job of assigning color to these images is divided between three cone-like receptors; one for each red, blue, and green wavelength. When a person is color deficient, this basically means that at least of these cones is misaligned, and is not properly displaying the wavelengts that the pupil is taking in.
