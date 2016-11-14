@@ -22,14 +22,41 @@ body {
     background-attachment: fixed;
 }
 
+/*-----------------------------*/
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: left;
+    font-style: italic;
+}
+
+p {
+    font-size:1.2em ;
+    text-align: left;
+    padding-left: 1em;
+}
+
 hr {
     margin-top: 2.5em;
     margin-bottom: 1.5em;
 }
 
-h3 {
-    margin-top: 0;
+/*-----------------------------*/
+
+#navwrapper a {
+    color: #607680;
+    text-decoration: none;
 }
+
+#navwrapper a:hover {
+    color:white;
+}
+
 /*-------------------*/
 /* End General rules */
 
@@ -75,7 +102,6 @@ h3 {
 }
 
 .nav ul li a:hover{
-    color: white;
     background-color: blue ;
 }
 
