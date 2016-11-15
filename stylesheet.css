@@ -111,6 +111,10 @@ hr {
     background-color: blue ;
 }
 
+/* Nav mobile */
+
+
+
 .js {
     height:35vh;
     width:100%;
@@ -256,8 +260,21 @@ footer p{
         margin:0;
         background-color: red;
     }
-    
-    
+    /* Nav Mobile */
+    #btn{
+    padding: 2px 5px;
+    }
+
+    #btn > div{
+    width:20px;
+    height: 4px;
+    background: #333;
+    margin: 3px 0px;
+    border-radius: 5px;
+    }
+    /* End of Nav mobile */
+
+
 /*
     #navwrapper {
         position: static !important;
