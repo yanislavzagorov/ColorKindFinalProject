@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     padding: 0;
     color:#555;
-    background-color: #EFEFED;
+    background-color: #F2F4F5;
     
     /*
     background-image:url(Images/background.jpeg);
@@ -56,6 +56,12 @@ hr {
 
 li {
     font-weight: 700;
+}
+
+#list {
+    max-width:600px;
+    float:left;
+    margin-right:5px;
 }
 
 /*-----------------------------*/
