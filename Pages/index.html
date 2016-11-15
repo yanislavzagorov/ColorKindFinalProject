@@ -31,10 +31,20 @@
         
     <!-- Nav wrapper -->
     <div id="navwrapper">    
-            
+                 <div class="nav_mobile">
+                    <div href="#" class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+
+
+
+
                 <div class="nav">
                     <a href="index.html"><img src="../Images/navlogo.jpg" alt="ColorKind" id="navlogo"/></a>
-                    <ul>
+                    <ul class="nav-ul">
                         <li><a href="index.html"> Home </a></li>
                         <li><a href="info.html"> Info </a></li>
                         <li><a href="https://pirates.com"> Palettes </a></li>
@@ -46,9 +56,7 @@
                     </div>
                 </div>
         
-                <div class="nav_mobile">
-                    <h5>Hei</h5>
-                </div>
+               
 
     </div>
     
@@ -192,6 +200,24 @@
         </div>
         
     </footer>
+
+
+
+
+    <script src= "http//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script> 
+        $('div.hamburger').click(function(){
+            $('ul.nav-ul').toggle();
+        })
+
+        $(window).resize(function (){
+            if($(window).width()> 400){
+                $('ul.nav-ul').removeAttr('style');
+            }
+        })
+
+    </script>
+
 
     </body>
 
