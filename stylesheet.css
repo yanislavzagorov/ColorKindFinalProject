@@ -1,6 +1,29 @@
-/*------- CSS Inventory Catalogue -------*/
+/*------------------------------------------*/
+/*-------- ColorKind CSS stylesheet --------*/
+/*----------- Table of Contents    ---------*/
+/*------------------------------------------*/
+/*--| 1 |-General style rules---------------*/
+/*---|1.0|---------------------Html and body*/
+/*---|1.1|----------------Text-based content*/
+/*---|1.2|---------------Image-based content*/      /*!!! INKLUDERER IMAGE-ZOOM*/
+/*---|1.3|*/
+/*---|1.4|*/
 
-/*======= Desktop Versin (>XOXO screen res) =======*/
+
+/*--| 2 |-Desktop specific rules------------*/
+/*---|1.0|---------------------------Nav-bar*/
+/*----|1.01|-------------Wrapper and content*/
+/*----|1.02|-------------------Accessibility*/      /*!!! High-Contrast and Text-enhancment
+
+
+
+
+
+
+
+
+
+/*========-|1|-General style rules-========*/
 
 /* General rules */
 /*--------------*/
@@ -79,7 +102,9 @@ li {
 /* End General rules */
 
 /* Specific CSS */
-/*-_-_-_-_-_-_-_*/
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-__-_-_-_-_-_-_-_-_-_-_*/
+/*======= Desktop specific (screen resolution >768px) =======*/
+
 
 /* NAV */
 /*-----*/
@@ -142,6 +167,20 @@ li {
     display:none;
 }
 
+
+figure{
+    font-size: 0.7em;
+    text-decoration: underline;
+    -webkit-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
+    -moz-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
+    box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
+    width:50%;
+    max-width:400px;
+    margin-left:0;
+    margin-top:0;
+    float:left;
+}
+
 /*---------*/
 /* End NAV */
 
@@ -159,18 +198,7 @@ li {
     padding:10px;
 }
 
-#figure1{
-    font-size: 0.7em;
-    text-decoration: underline;
-    -webkit-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
-    -moz-box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
-    box-shadow: 5px 5px 37px 0px rgba(0,0,0,0.66);
-    width:50%;
-    max-width:400px;
-    margin-left:0;
-    margin-top:0;
-    float:left;
-}
+
 
 #colorblindness {
     width: 100%;
