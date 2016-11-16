@@ -7,7 +7,6 @@
 /*---|1.2|----------------Text-based content*/
 /*---|1.3|---------------Image-based content*/      /*!!! INKLUDERER IMAGE-ZOOM*/
 /*---|1.4|----------------------------Footer*/
-/*---|1.5|*/
 
 
 /*--| 2 |-Desktop specific rules------------*/
@@ -15,7 +14,6 @@
 /*----|2.10|-------------wrapper and content*/
 /*----|2.11|-------------------accessibility*/      /*!!! High-Contrast and Text-enhancment*/
 /*---|2.2|---------------------------Content*/
-/*----|2.20|-------------content and wrapper*/
 
 
 
@@ -212,23 +210,29 @@ footer p{
     float:left;
 }
 
-#navwrapper a {
+.nav #current {
     color: black;
+    background-color:silver;
+    border-bottom: 2px;
+}
+
+#navwrapper a {
+    color: #607680;
     text-decoration: none;
 }
 
 #navwrapper a:hover {
-    color:white;
+    color: #dbdbdb;
 }
 
 #navlogo {
     height: 50px;
-    width:auto;
-    float:left;
+    width: auto;
+    float: left;
 }
 
 .nav_mobile {
-    display:none;
+    display: none;
 }
 
 .nav ul{
@@ -248,16 +252,10 @@ footer p{
 }
 
 .nav ul li a:hover{
-    background-color: blue;
+    background-color: #434444;
 }
 
 /*__________accessibility |2.11|_*/
-
-
-
-
-
-
 
 
 /*---------------------------------*/
@@ -347,8 +345,7 @@ footer p{
 
     .nav ul li a:hover{
         background-color: blue;
-    }
-
+    }   
     
 /*_____________exceptions |3.11|_*/
     #navlogo {
@@ -358,8 +355,7 @@ footer p{
     .nav {
         display:none;
     }
-
-
+    
 /*---------------------------------*/
 /*------------------Content |3.2|-*/
     #contentwrapper {
@@ -392,32 +388,32 @@ footer p{
 
 
 
-/* JavaScript handling (jQuery) */
-/*------------------------------*/
-.noscript .enabled {
-    display:none;
-}
-.noscript .disabled {
-    display:block;
-}
+            /* JavaScript handling (jQuery) */
+            /*------------------------------*/
+            .noscript .enabled {
+                display:none;
+            }
+            .noscript .disabled {
+                display:block;
+            }
 
-.js {
-    height:35vh;
-    width:100%;
-    float:left;
-    padding-top:7em;
-}
+            .js {
+                height:35vh;
+                width:100%;
+                float:left;
+                padding-top:7em;
+            }
 
-.enabled {
-    background-color: limegreen;
-}
+            .enabled {
+                background-color: limegreen;
+            }
 
-.disabled {
-    background-color: red;
-    display:none;
-}
-/* JavaScript handling END */
-/*-------------------------*/
+            .disabled {
+                background-color: red;
+                display:none;
+            }
+            /* JavaScript handling END */
+            /*-------------------------*/
 
 
 

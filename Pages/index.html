@@ -1,5 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<!--
+
+/*------------------------------------------*/
+/*------------- ColorKind HTML -------------*/
+/*----------- Table of Contents ------------*/
+/*------------------------------------------*/
+/*--| 1 |-General style rules---------------*/
+/*---|1.1|---------------------Html and body*/
+/*---|1.2|----------------Text-based content*/
+/*---|1.3|---------------Image-based content*/      /*!!! INKLUDERER IMAGE-ZOOM*/
+/*---|1.4|----------------------------Footer*/
+
+
+/*--| 2 |-Desktop specific rules------------*/
+/*---|2.1|---------------------------Nav-bar*/
+/*----|2.10|-------------wrapper and content*/
+/*----|2.11|-------------------accessibility*/      /*!!! High-Contrast and Text-enhancment*/
+/*---|2.2|---------------------------Content*/
+/*----|2.20|-------------content and wrapper*/
+
+
+
+/*--| 3 |-Mobile-specific rules-------------*/
+/*---|3.1|---------------------------Nav-bar*/
+/*----|3.10|-------------wrapper and content*/ 
+/*----|3.11|----------------------exceptions*/
+/*---|3.2|---------------------------Content*/
+/*---|3.3|----------------------------Footer*/
+
+
+/*--| 4 |-Page-specific rules---------------*/
+/*---|4.1|--------------------------Contrast*/
+/*---|4.2|---------------------Other effects*/       /* Aka lys under nav-knapp på hver av sidene */
+
+
+
+
+/*__________________________________________*/
+/*____________Misc Information______________*/
+/*__________________________________________*/
+/*__________________________________________*/
+
+-->
 
     <head>
         <title>International Color Palette Index</title>
@@ -18,47 +61,46 @@
      
     <body class="noscript">
         
-    <script>
-        if (typeof jQuery != 'undefined') {
-            $("body").removeClass("noscript");
-        }else{
-            alert("jQuery library is not found!");
-        }
-    </script>
+        <script>
+            if (typeof jQuery != 'undefined') {
+                $("body").removeClass("noscript");
+            }else{
+                alert("jQuery library is not found!");
+            }
+        </script>
         
-    <div id="colorline">
-    </div>
-        
-    <!-- Nav wrapper -->
+        <div id="colorline">
+        </div>
+
     <div id="navwrapper">    
             
-                <div class="nav">
-                    <a href="index.html"><img src="../Images/navlogo.jpg" alt="ColorKind" id="navlogo"/></a>
-                    <ul>
-                        <li><a href="index.html"> Home </a></li>
-                        <li><a href="info.html"> About </a></li>
-                        <li><a href="https://pirates.com"> Palettes </a></li>
-                        <li><a href="about"> Contact Us </a></li>
-                    </ul>
-                    
-                    <div id="accessibility">
-                        <div class="contrast"></div>
-                    </div>
-                </div>
-        
-                <div class="nav_mobile">
-                    
-                    <ul>
-                        <ul>
-                        <li class="menu"><img src="../Images/Buttons/menu.png"/></li>
-                        <li><a href="index.html"> Home </a></li>
-                        <li><a href="info.html"> About </a></li>
-                        <li><a href="https://pirates.com"> Palettes </a></li>
-                        <li><a href="about"> Contact </a></li>
-                    </ul>
-                    
+        <div class="nav">
+            <a href="index.html"><img src="../Images/navlogo.jpg" alt="ColorKind" id="navlogo"/></a>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="info.html" id="current"> About </a></li>
+                <li><a href="https://pirates.com"> Palettes </a></li>
+                <li><a href="about"> Contact Us </a></li>
+            </ul>
 
-                </div>
+            <div id="accessibility">
+                <div class="contrast"></div>
+            </div>
+        </div>
+
+        <div class="nav_mobile">
+
+            <ul>
+                <ul>
+                <li class="menu"><img src="../Images/Buttons/menu.png"/></li>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="info.html"> About </a></li>
+                <li><a href="https://pirates.com"> Palettes </a></li>
+                <li><a href="about"> Contact </a></li>
+            </ul>
+
+
+        </div>
 
     </div>
     
@@ -76,6 +118,7 @@
     <div id="contentwrapper">
         
         <h1>About Color Vision Deficiency</h1>
+       
         <article>
             
             <h3>
