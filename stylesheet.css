@@ -178,6 +178,7 @@ li {
 }
 
 
+
 ul {
     padding: 15px;
 }
@@ -214,6 +215,7 @@ footer p{
     text-align: center;
     margin-top: 5px;
     padding-bottom: 0;
+    margin-bottom:0;
 }
 
 #CreativeCommonsLicense{
@@ -249,7 +251,6 @@ footer p{
     height: 35px;
     width: 35px;
     border-radius: 25px;
-    
 }
 
 /* End of Footer */
