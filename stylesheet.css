@@ -106,7 +106,6 @@ li {
     display:none;
 }
 
-
 .nav ul{
   margin: 0;
   padding: 0;
@@ -271,39 +270,15 @@ footer p{
 /* Mobile handling */
 /*-----------------*/
 @media all and (max-width: 768px) and (orientation: portrait) {
-    /* Hamburger */
-
-    .hamburger{
-        cursor: pointer;
-        padding: 15px;
-        display: block;
-    }
-
-    .line{
-        border-bottom: 4px solid black;
-        width: 35px;
-        margin-bottom: 6px;
-    }
-
-    .line:last-child{
-        margin-bottom:0;
-    }
-
-    /* End of Hamburger */
-
+    
     #navlogo {
         display:none;
     }
     
-    .nav ul li a{
-        width:100%;
+    .nav {
+        display:none;
     }
     
-
-    .nav .nav-ul{
-        display: none;
-    }
-
     .nav_mobile {
         display:block;
         height:100%;
@@ -329,8 +304,6 @@ footer p{
         border-left: 0px;
         border-right: 0em;
     }
-
-
     
 }
     
