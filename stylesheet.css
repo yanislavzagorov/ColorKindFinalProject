@@ -272,7 +272,8 @@ footer p{
 /*-----------------*/
 @media all and (max-width: 768px) and (orientation: portrait) {
     
-    /* Nav */    
+    /* Nav */  
+    
     .menu img{
         height: 20px;
         width: 20px;
@@ -281,7 +282,7 @@ footer p{
 
     .nav_mobile li{
         display:none;
-        background-color: red;
+        background-color: #EEF1F2;
     }
 
     .nav_mobile .menu{
@@ -300,7 +301,7 @@ footer p{
 
 .nav_mobile ul li{
     list-style: none;
-
+    border-bottom: 5px solid grey;
 }
 
 .nav_mobie ul li a{
@@ -332,7 +333,7 @@ footer p{
         height:100%;
         margin:0;
         width:100%;
-        background-color: red;
+        background-color: #EEF1F2;
         overflow:hidden;
         float:left;
     }
@@ -352,6 +353,7 @@ footer p{
         border-left: 0px;
         border-right: 0em;
     }
+    
     
 }
     
