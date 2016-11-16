@@ -67,7 +67,7 @@ li {
 /*-----------------------------*/
 
 #navwrapper a {
-    color: #607680;
+    color: black;
     text-decoration: none;
 }
 
@@ -271,6 +271,53 @@ footer p{
 /*-----------------*/
 @media all and (max-width: 768px) and (orientation: portrait) {
     
+    /* Nav */    
+    .menu img{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+
+    .nav_mobile li{
+        display:none;
+        background-color: red;
+    }
+
+    .nav_mobile .menu{
+        display: block;
+    }
+
+    .nav_mobile ul:hover li{
+        display:block;
+    }
+
+
+    .nav_mobile ul{
+  margin: 0;
+  padding: 0;
+}
+
+.nav_mobile ul li{
+    list-style: none;
+
+}
+
+.nav_mobie ul li a{
+    text-decoration: none;
+    float: left;
+    padding: 13px 20px;
+    display: block;
+}
+
+.nav ul li a:hover{
+    background-color: blue ;
+}
+
+    /* End of nav */
+
+
+
+
     #navlogo {
         display:none;
     }
