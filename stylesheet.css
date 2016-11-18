@@ -207,7 +207,7 @@ footer p{
     overflow: hidden;
     vertical-align: middle;
     position:fixed;
-    float:left;
+    float:left;  
 }
 
 .nav #current {
@@ -226,7 +226,7 @@ footer p{
 }
 
 #navlogo {
-    height: 50px;
+    height: 80px;
     width: auto;
     float: left;
 }
@@ -253,6 +253,31 @@ footer p{
 
 .nav ul li a:hover{
     background-color: #434444;
+}
+
+#accessibility {
+    width:200px;
+    height:80px;
+    background-color:red;
+    float:right;
+    display:block;
+    padding:0;
+}
+
+.contrast {
+    width:50%;
+    height:100%;
+    background-color: blue;
+    margin:0;
+    float:left;
+}
+
+.zoom {
+    width:50%;
+    height:100%;
+    background-color: yellow;
+    margin:0;
+    float:left;
 }
 
 /*__________accessibility |2.11|_*/
@@ -378,43 +403,6 @@ footer p{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-            /* JavaScript handling (jQuery) */
-            /*------------------------------*/
-            .noscript .enabled {
-                display:none;
-            }
-            .noscript .disabled {
-                display:block;
-            }
-
-            .js {
-                height:35vh;
-                width:100%;
-                float:left;
-                padding-top:7em;
-            }
-
-            .enabled {
-                background-color: limegreen;
-            }
-
-            .disabled {
-                background-color: red;
-                display:none;
-            }
-            /* JavaScript handling END */
-            /*-------------------------*/
-
 
 
 
