@@ -235,7 +235,7 @@ footer p{
 }
 
 #navlogo {
-    height: 80px;
+    height: 50px;
     width: auto;
     float: left;
 }
@@ -266,7 +266,7 @@ footer p{
 
 #accessibility {
     width:200px;
-    height:80px;
+    height:50px;
     background-color:red;
     float:right;
     display:block;
